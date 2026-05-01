@@ -1,0 +1,4 @@
+requests
+psycopg2-binary
+dbt-postgres==1.7.0
+apache-airflow==2.9.3

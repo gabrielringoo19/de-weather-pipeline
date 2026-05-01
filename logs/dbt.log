@@ -1,0 +1,64 @@
+[0m20:50:59.575738 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C926020810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C9260837D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C92608FF10>]}
+
+
+============================== 20:50:59.586402 | 7e360bf0-2e7d-4b9a-a0d8-0562e34bf4d3 ==============================
+[0m20:50:59.586402 [info ] [MainThread]: Running with dbt=1.11.8
+[0m20:50:59.588360 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\gabri\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init weather_transform', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:50:59.638356 [debug] [MainThread]: Starter project path: C:\Users\gabri\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m20:50:59.751343 [info ] [MainThread]: 
+Your new dbt project "weather_transform" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:50:59.752570 [info ] [MainThread]: Setting up your profile.
+[0m20:54:37.900909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D093FD1010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D09787CC50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D093FC5750>]}
+
+
+============================== 20:54:37.905920 | 8c78be1b-db9f-4b16-b01c-be412d63e944 ==============================
+[0m20:54:37.905920 [info ] [MainThread]: Running with dbt=1.11.8
+[0m20:54:37.906917 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gabri\\.dbt', 'use_colors': 'True', 'invocation_command': 'dbt init weather_transform', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m20:54:37.929085 [info ] [MainThread]: A project called weather_transform already exists here.
+[0m20:54:37.930627 [debug] [MainThread]: Command `dbt init` succeeded at 20:54:37.930627 after 0.11 seconds
+[0m20:54:37.930627 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D09781E190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D093FC74D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D090AA7FD0>]}
+[0m20:54:37.931627 [debug] [MainThread]: Flushing usage events
+[0m20:54:39.200887 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:02:36.076702 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C2B9E1F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C2B9E0F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C2B9E3B10>]}
+
+
+============================== 21:02:36.080714 | 172d583f-6bb4-4447-9637-75d3ce3ef2d4 ==============================
+[0m21:02:36.080714 [info ] [MainThread]: Running with dbt=1.11.8
+[0m21:02:36.081701 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\gabri\\.dbt', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init weather_pipeline', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:02:36.103010 [debug] [MainThread]: Starter project path: C:\Users\gabri\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m21:02:36.128878 [info ] [MainThread]: 
+Your new dbt project "weather_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:02:36.129847 [info ] [MainThread]: Setting up your profile.
+[0m21:05:51.036935 [info ] [MainThread]: Profile weather_pipeline written to C:\Users\gabri\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:05:51.038957 [debug] [MainThread]: Command `dbt init` succeeded at 21:05:51.038957 after 195.04 seconds
+[0m21:05:51.039948 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C24CB7FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C24CB7D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014C24CB7D90>]}
+[0m21:05:51.040933 [debug] [MainThread]: Flushing usage events
+[0m21:05:52.490755 [debug] [MainThread]: An error was encountered while trying to flush usage events

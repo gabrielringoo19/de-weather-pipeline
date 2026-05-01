@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: stg_open_meteo
+    columns:
+      - name: time
+        tests:
+          - not_null
+
+      - name: temperature
+        tests:
+          - not_null
+
+  - name: daily_weather
+    columns:
+      - name: date
+        tests:
+          - not_null
+          - unique
